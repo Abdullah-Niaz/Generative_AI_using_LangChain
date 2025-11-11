@@ -145,5 +145,3 @@ Memory  → recalls past info
    ↓
 Agent  → decides actions or tool usage
 ```
-
----
