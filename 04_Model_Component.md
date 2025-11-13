@@ -29,7 +29,4 @@ Language models taht are specialized for conversational tasks. They take a seque
 
 ### Embedding Models
     i. Closed Source
-    ii. Open So urce
-
-
-
+    ii. Open Source
