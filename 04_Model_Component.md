@@ -11,10 +11,16 @@ It abstracts the complexity of working directly with different LLMs, chat models
     2. Embedding MOdels
 
 ### 1. LLMs
-General Purpose models that is used for raw text generation. They take a single(or plain text) as input and returns a string(plain text). These are traditionally older models and are to used much now. 
+These are general-purpose models used for raw text generation.
+They take plain text as input and return plain text as output.
+
+Traditionally, these models were the foundation of NLP systems, but modern applications now often prefer chat-based models for interactive and structured outputs.
 
 ### 2. Chat Models
-Language models taht are specialized for conversational tasks. They take a sequence of messages as inputs and return chat messages as outputs(as opposed to using plain text). These are traditionally newer models and use more in comparison to the LLMs.
+Chat Models are language models specialized for conversational tasks.
+They take a sequence of messages as input and return chat messages as output — unlike LLMs, which handle plain text.
+
+These are newer models and are more widely used today compared to traditional LLMs.
 
 ### Language Models 
     i. Closed source
