@@ -70,3 +70,34 @@ Agentic AI increases risk through autonomy. Open-source reduces unobservable beh
 | Debuggability           | Full internal logs        | Partial or absent        |
 | Risk                    | Lower due to transparency | Higher due to opacity    |
 
+
+
+
+##  Some famous Open Source Models
+| Model        | Developer                               | Parameters                                     | Best Use Case                                                                      |
+| ------------ | --------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **LLaMA**    | Meta                                    | 7B, 13B, 34B, 70B, 405B (depending on version) | General-purpose LLM tasks, reasoning, chat systems, fine-tuning for custom domains |
+| **Mistral**  | Mistral AI                              | 7B, 8×7B Mixtral, 22B, 24B                     | High-efficiency inference, coding tasks, reasoning, agentic workloads              |
+| **Falcon**   | Technology Innovation Institute (TII)   | 1B, 7B, 40B                                    | Enterprise fine-tuning, multilingual tasks, text generation                        |
+| **BLOOM**    | BigScience (Hugging Face collaboration) | 560M, 1.1B, 1.7B, 3B, 7.1B, 176B               | Multilingual NLP, research, open governance experiments                            |
+| **GPT-J 6B** | EleutherAI                              | 6B                                             | Lightweight text generation, chatbots, educational projects                        |
+| **GPT-Neo**  | EleutherAI                              | 1.3B, 2.7B                                     | Baseline NLP tasks, experimentation, student projects                              |
+| **StableLM** | Stability AI                            | 3B, 7B                                         | Lightweight conversational models, on-device inference, developer experimentation  |
+
+
+
+
+### Open Soruce Models Running:
+    * Running locally 
+    * Running on hugging face interface using api
+
+### Disadvantage of Running Locally
+| Disadvantage | Details | 
+| ------------ | ------------ | 
+| High Hardware Requirements | Running large model (llama2...) requires expensive GPUs. | 
+| Setup complexity | Requires installation of dependencies |
+|Lack of RLHF | Most open source models does not have fine tunning with humman feedback, making them weaker in instruction following |
+| Limited Multimodel Abilities | Open models don't support images, audio, or video like GPT-4v | 
+
+
+open source models are less refined. 
